@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
 .container-profile{
+    height: 100vh;
     position: absolute;
     display: flex;
     flex-direction: column;
