@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
-
 .container-profile{
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -10,7 +7,7 @@
     background-color: rgba(217, 217, 217, 30%);
     padding: 45px;
     border-radius: 40px;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
 }
 
 .img-profile {

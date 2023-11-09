@@ -1,0 +1,29 @@
+.container-learning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning-title{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px;
+    color: #00fff0;
+}
+
+.container-icons-learning{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 40px;
+}
+
+.container-icons-learning > svg {
+    margin: 30px 25px;
+}
+
+FaReact{
+    background-color: red;
+}

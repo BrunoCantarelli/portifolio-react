@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
-
 .container-main{
     position: absolute;
     display: flex;
@@ -7,7 +5,7 @@
     width: 1455px;
     height: 850px;
     border-radius: 40px;
-    margin: 130px 5px 0 440px;
+    margin: 135px 5px 0 440px;
     background-color: rgba(217, 217, 217, 30%);
     color: #00fff0;
     font-family: 'Quicksand', sans-serif;
