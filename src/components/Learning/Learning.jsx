@@ -7,12 +7,24 @@ function Learning() {
     <div className="container-learning">
       <h3 className="learning-title">Estou estudando:</h3>
       <div className="container-icons-learning">
-        <FaReact size={50}/>
-        <FaJsSquare size={50} />
-        <SiTypescript size={45} />
-        <SiNodedotjs size={50} />
-        <FaBootstrap size={50} />
-        <SiTailwindcss size={50} />
+        <div className="icon-learning">
+          <FaReact size={50} />
+        </div>
+        <div className="icon-learning">
+          <FaJsSquare size={50} />
+        </div>
+        <div className="icon-learning">
+          <SiTypescript size={50} />
+        </div>
+        <div className="icon-learning">
+          <SiNodedotjs size={50} />
+        </div>
+        <div className="icon-learning">
+          <FaBootstrap size={50} />
+        </div>
+        <div className="icon-learning">
+          <SiTailwindcss size={50} />
+        </div>
       </div>
     </div>
   );
