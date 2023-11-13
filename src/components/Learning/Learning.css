@@ -26,8 +26,8 @@
 }
 
 .icon-learning {
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   margin: 4px;
   background-color: rgb(255, 255, 255);
-  border-radius: 30px;
+  border-radius: 20px;
 }
