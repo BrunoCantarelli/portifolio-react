@@ -1,19 +1,19 @@
 // import { useState } from 'react'
 import BarraSuperior from "../components/BarraSuperior/BarraSuperior"
 import Profile from "../components/Profile/Profile"
-import About from "../pages/Main/About"
+import Projects from "../pages/Projects/Projects"
 
-function Home() {
+function MyProjects() {
 
   return (
     <>
       <div>
         <BarraSuperior/>
         <Profile/>
-        <About/>
+        <Projects/>
       </div>
     </>
   )
 }
 
-export default Home
+export default MyProjects
