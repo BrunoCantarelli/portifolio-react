@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       <div>
-        <BarraSuperior/>
-        <Profile/>
-        <About/>
+        <BarraSuperior />
+        <Profile />
+        <About />
       </div>
     </>
   )

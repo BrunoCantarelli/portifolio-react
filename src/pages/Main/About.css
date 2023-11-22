@@ -26,3 +26,8 @@
     margin: 70px;
     font-size: 25px;
 }
+
+.knowledge{
+    align-items: center;
+    justify-content: center;
+}

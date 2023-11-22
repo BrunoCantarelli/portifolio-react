@@ -14,12 +14,14 @@ function Main() {
           (desenvolvimento web), e meu principal objetivo é buscar cada vez mais
           conhecimento na area de tecnologia!
         </p>
-        <p className="knowledge main-about">
-          Já tive contato cm várias tecnologias, dentre elas tem: C, C++,
-          Python, Flutter, Dart, porém, a área que eu senti maior atração foi o
-          desenvolvimento web, onde com consegui colocar farias ideias que tinha
-          em forma de sites/projetos. `
-        </p>
+        <div className="knowledge">
+          <p className="main-about">
+            Já tive contato com várias tecnologias, dentre elas tem: Javascript, VueJS, ReactJs, C, C++,
+            Python, Flutter, Dart, porém, a área que eu senti maior vontade de
+            me desenvolver foi o desenvolvimento web, onde com consegui colocar
+            farias ideias que tinha em forma de sites/projetos.
+          </p>
+        </div>
       </div>
     </main>
   );
