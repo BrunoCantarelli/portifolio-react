@@ -20,14 +20,14 @@
 }
 
 .main-about{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: 70px;
     font-size: 25px;
 }
 
-.knowledge{
-    align-items: center;
-    justify-content: center;
+.text-about{
+    padding: 40px;
+    text-align: center;
 }
