@@ -1,35 +1,44 @@
 import "./Projects.css";
+import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 function Projects() {
+  const items = [
+    {
+      src: "https://placekitten.com/300/300",
+      alt: "Imagem 1",
+    },
+    {
+      src: "profile-img.png",
+      alt: "Imagem 2",
+    },
+    {
+      src: "https://placekitten.com/300/300",
+      alt: "Imagem 3",
+    },
+  ];
+
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+
   return (
     <>
       <div className="container-projects">
         <h1>Meus Projetos</h1>
-        <Carousel>
-          <Carousel.Item interval={1000}>
-            <img src="teste.png" alt="" />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={500}>
-            <img src="" alt="" />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src="" alt="" />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        <p>Slide atual: {currentSlide + 1}</p>
+        <Carousel
+          items={items}
+          interval={2000}
+          controls={true}
+          wrap={true}
+          onSlideChange={(currentSlide) => setCurrentSlide(currentSlide)}
+        >
+          {items.map((item) => (
+            <Carousel.Item key={item.alt}>
+              <img src={item.src} alt={item.alt} />
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     </>
