@@ -25,6 +25,7 @@ function Projects() {
   return (
     <>
       <div className="container-projects">
+        {/* teste de implementação de carrossel */}
         <h1>Meus Projetos</h1>
         <p>Slide atual: {currentSlide + 1}</p>
         <Carousel
